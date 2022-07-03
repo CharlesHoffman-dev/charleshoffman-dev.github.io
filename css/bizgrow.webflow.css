@@ -1115,6 +1115,10 @@ p {
     max-width: 90%;
   }
 
+  .image-container {
+    height: 200px;
+  }
+
   .section-4 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -1277,6 +1281,10 @@ p {
 
   .columns-2 {
     max-width: 90%;
+  }
+
+  .image-container {
+    height: 275px;
   }
 
   .column {
@@ -1459,6 +1467,10 @@ p {
 
   .columns-2 {
     max-width: 100%;
+  }
+
+  .div-block-5 {
+    border-radius: 0px;
   }
 
   .paragraph-4 {
