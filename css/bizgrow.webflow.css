@@ -347,8 +347,8 @@ p {
   height: 40px;
   float: left;
   border: 1px solid transparent;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
@@ -360,13 +360,14 @@ p {
 }
 
 .newsletter-button {
+  position: relative;
+  right: 25px;
   width: 40%;
   height: 40px;
   padding-top: 9px;
   padding-bottom: 9px;
   float: left;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-radius: 100px;
   background-color: #2755f8;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1095,6 +1096,14 @@ p {
     background-color: #f2f3f8;
   }
 
+  .newsletter-field {
+    width: 60%;
+  }
+
+  .newsletter-form {
+    width: 85%;
+  }
+
   .testimonial-slider {
     margin-top: 40px;
   }
@@ -1404,12 +1413,21 @@ p {
   .grid {
     margin-top: 0px;
   }
+
+  .form {
+    position: relative;
+    left: 12px;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .newsletter-button {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .newsletter-form {
+    width: 95%;
   }
 
   .section-subtitle {
@@ -1555,6 +1573,17 @@ p {
 
   .heading-14 {
     max-width: none;
+  }
+
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
